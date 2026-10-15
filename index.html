@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#8faffe">
+    <meta name="description" content="A cute, responsive to-do app to organize your daily tasks.">
+    <title>To-Do App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main class="container">
+        <section class="todo-app" aria-labelledby="app-title">
+
+            <h1 id="app-title">To-Do App</h1>
+
+            <form class="input-area" id="task-form">
+                <label class="visually-hidden" for="task-input">
+                    Enter a new task
+                </label>
+
+                <input type="text" id="task-input" placeholder="Add a new task..." maxlength="200" autocomplete="off"
+                    required>
+
+                <button type="submit" id="add-task-btn" aria-label="Add task" title="Add task">
+                    <i class="fa-solid fa-plus" aria-hidden="true"></i>
+                </button>
+            </form>
+
+            <div class="todos-container" id="todos-container">
+
+                <p class="empty-message" id="empty-message">
+                    A little progress is still progress ♡
+                </p>
+
+                <ul id="task-list" aria-label="Your tasks"></ul>
+
+                <img class="empty-image" src="images/girl.png" alt="Illustration of a girl standing with a peace sign">
+
+            </div>
+
+            <p class="save-note">
+                Your tasks are saved in this browser ♡
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>
