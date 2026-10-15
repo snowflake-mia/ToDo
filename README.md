@@ -2,7 +2,7 @@
 
 A cute, responsive to-do list application built with HTML, CSS, and vanilla JavaScript. The app features a soft pastel aesthetic, an empty-state illustration, and automatic task saving with browser localStorage.
 
-## ✨ Features
+## Features
 
 - Add new tasks
 - Edit existing tasks
@@ -15,7 +15,7 @@ A cute, responsive to-do list application built with HTML, CSS, and vanilla Java
 - Glassmorphism-inspired interface
 - Accessible button labels and keyboard focus styles
 
-## 🛠️ Technologies
+## Technologies
 
 - HTML5
 - CSS3
@@ -49,8 +49,7 @@ pastel-todo-app/
 Tasks are saved in the browser's localStorage, so they remain available after refreshing the page in the same browser. The application does not currently use a backend or synchronize tasks across devices.
 
 ## 🌐 Live Demo
-
+https://pasteltodo.vercel.app/
 
 ## 👩‍💻 Author
-
 Created as a personal frontend development project to practice HTML, CSS, JavaScript, responsive design, and browser storage.
